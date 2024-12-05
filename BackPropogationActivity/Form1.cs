@@ -37,7 +37,7 @@ namespace BackPropogationActivity
 ;               return;
             }
 
-            for (int x = 0; x < 100; x++)
+            for (int x = 0; x < 500; x++)
             {
 
                 //1st
@@ -195,7 +195,9 @@ namespace BackPropogationActivity
             inputBox2.Text = "";
             inputBox3.Text = "";
             inputBox3.Text = "";
+            inputBox4.Text = "";
             outputBox.Text = "";
+            outputBox2.Text = "";
         }
 
         private void createButton_Click(object sender, EventArgs e)
